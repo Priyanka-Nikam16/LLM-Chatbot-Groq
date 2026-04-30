@@ -5,7 +5,7 @@ It allows users to ask questions about finances, view responses, and track their
 
 ---
 
-## 🚀 Features
+## Features
 - Interactive finance Q&A powered by LLM (`get_chat_response`).
 - Persistent **chat history** stored in `st.session_state`.
 - Sidebar view of past queries for quick reference.
@@ -13,7 +13,9 @@ It allows users to ask questions about finances, view responses, and track their
 
 ---
 
-## 📂 Project Structure
+## Project Structure
+
+
 
 finance-chatbot/
 │
@@ -22,14 +24,17 @@ finance-chatbot/
 ├── requirements.txt       # Dependencies
 └── README.md              # Project documentation
 
-RUN:streamlit run app.py
+RUN:
+  - streamlit run app.py
 
 
-Usage
-Type your finance-related query in the input box.
+## Usage:
+  - Type your finance-related query in the input box.
+  - Click Ask to get a response.
+  - View your conversation history in the sidebar.
+  - Scroll down to see the full conversation log.
 
-Click Ask to get a response.
-
-View your conversation history in the sidebar.
-
-Scroll down to see the full conversation log.
+## **Requirements**
+  - Python 3.9+
+  - Streamlit
+  - Groq client / LLM integration
